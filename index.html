@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>郭书聪's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#" onclick="showSection('profile')">Home</a></li>
+                    <li><a href="#" onclick="showSection('research')">Research</a></li>
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Experience</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                    <li><a href="#" onclick="showSection('publications')">Publications</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                    <li><a href="#" onclick="showSection('teaching')">Teaching</a></li>
+                    <li><a href="#" onclick="showSection('awards')">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="profile-pic">
+              <img src="profile/17.svg" alt="郭书聪" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>郭书聪</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    郭书聪 is a dedicated PhD candidate specializing in Business Administration with a focus on accounting and auditing. She has a strong background in empirical research methods, data analysis, and academic writing, evidenced by her publications in reputable journals. Her skills include SPSS, Amos, Mplus, and Stata, and she has experience in organizing large academic conferences.
+                </p>
+              </div>
+            </div>
+        </section>
+        <div class="contacts">
+            <a href="mailto:guo_shucong2021@163.com" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+            <a href="tel:13164337760" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+        </div>
+
+        <section id="research" class="hidden">
+            <h2>Research Interests</h2>
+            <div id="research-interests-container" class="research-grid">
+                <div class="research-card">
+                    <h3 class="research-field">Business Administration</h3>
+                    <p class="research-description">Focus on accounting, auditing, and the impact of personal brand equity on employee behavior.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container" id="education-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2026年6月</div>
+                        <div class="timeline-content">
+                            <h3>硕博连读</h3>
+                            <span class="school">海南大学</span>
+                            <p class="field">工商管理学 企业管理方向</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020年6月</div>
+                        <div class="timeline-content">
+                            <h3>本科</h3>
+                            <span class="school">华北水利水电大学</span>
+                            <p class="field">会计学</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="carousel-wrapper">
+                <div class="projects-container" id="projects-container">
+                    <div class="project-card">
+                        <h3 class="project-title">海南省研究生创新科研课题</h3>
+                        <span class="project-duration">2023年12月至2026年1月</span>
+                        <p class="project-description">研究个人品牌资产对建言行为的影响机制。</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">“逸舟组织管理研究”基金</h3>
+                        <span class="project-duration">2023年3月至2025年3月</span>
+                        <p class="project-description">研究个人品牌资产对建言行为的影响。</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">海南大学暑期三下乡社会实践校级重点团队</h3>
+                        <span class="project-duration">2021年7月至2021年8月</span>
+                        <p class="project-description">“互联网+”三农服务海南东路农场。</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">广西哲学社会科学规划项目</h3>
+                        <span class="project-duration">2024年12月至2028年1月</span>
+                        <p class="project-description">研究科技创新团队自我管理视角下团队成员领导力涌现路径与协同对策。</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">国家社科基金一般项目</h3>
+                        <span class="project-duration">2021年9月至2024年6月</span>
+                        <p class="project-description">研究员工内部创业过程中心理所有权的“双刃剑”效应及对策。</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">海南省自科基金高层次人才项目</h3>
+                        <span class="project-duration">2021年10月至2024年12月</span>
+                        <p class="project-description">研究科技创新背景下员工内部创业过程中心理所有权的双刃剑效应。</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">海南省“十四五”规划建议课题</h3>
+                        <span class="project-duration">2018年12月至2020年12月</span>
+                        <p class="project-description">参与重点建议研究。</p>
+                    </div>
+                </div>
+                <!-- Carousel Navigation Controls -->
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="publications" class="hidden">
+            <h2>Publications</h2>
+            <div class="publications-container" id="publications-container">
+                <div class="publication-card">
+                    <h3 class="publication-title">The brand dilemma of Chinese employees: The positive and negative effects of personal brand equity on voice behavior</h3>
+                    <div class="publication-meta">
+                        <span class="publication-journal">Asia Pacific Business Review</span>
+                        <span class="publication-year">2025</span>
+                    </div>
+                    <p class="publication-authors">Guo Shucong, Fu Jingtao, He Qi, Guo Keting</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title">Emerging as a leader: Balancing work-family conflict and enrichment through resource conservation</h3>
+                    <div class="publication-meta">
+                        <span class="publication-journal">Current Psychology</span>
+                        <span class="publication-year">2024</span>
+                    </div>
+                    <p class="publication-authors">Guo Shucong, He Qi, Fu Jingtao, Cai Wendi</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title">员工内部创业对变革抵制的影响和作用机制研究</h3>
+                    <div class="publication-meta">
+                        <span class="publication-journal">管理学报</span>
+                        <span class="publication-year">2024</span>
+                    </div>
+                    <p class="publication-authors">付景涛, 郭书聪, 张靓婷</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title">国企党建融入中心工作的路径规划: 信任理论的视角</h3>
+                    <div class="publication-meta">
+                        <span class="publication-journal">海南大学学报 (人文社会科学版)</span>
+                        <span class="publication-year">2021</span>
+                    </div>
+                    <p class="publication-authors">付景涛, 刘路瑶, 林涛, 郭书聪</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Technical Skills</h2>
+            <div id="technical-skills-container" class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Empirical research methods</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SPSS</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Amos</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Mplus</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Nvivo</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Stata</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Data analysis</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                    <span>Academic writing</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards" class="hidden">
+            <h2 class="section-title">Honors & Awards</h2>
+            <div class="content-container" id="awards-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">《中国人力资源开发》第九届学术年会优秀论文</h3>
+                            <span class="award-issuer">中国人力资源开发</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">第十三届研究生科研研讨会征文比赛三等奖</h3>
+                            <span class="award-issuer">研究生科研研讨会</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3 class="award-name">第十一届研究生科研研讨会征文比赛二等奖</h3>
+                            <span class="award-issuer">研究生科研研讨会</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Project section
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.project-card');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            const container = document.querySelector('.projects-container');
+            container.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            updateCarousel();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+            currentSlide--;
+            updateCarousel();
+            }
+        }
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+    </script>
+</body>
+</html>
